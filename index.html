@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script language="JavaScript">
+        var password; 
+        var pass1="silberberg"; 
+        password=prompt('Enter Password',' '); 
+        if (password==pass1) 
+        alert('Correct Password! Click OK to Enter!'); 
+        else { window.location="Incorrect"; 
+        } 
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+
+    <meta name="description" content="Homepage of recording group the Adelphi Brothers">
+    <meta name="keywords" content="Adelphi Brothers, music, brothers, siblings, family band">
+    <meta name="author" content="Eric Silberberg @ ericsilberberg.com">
+
+    <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+
+    <link rel="stylesheet" href="adelphi-style.css">
+
+    <title>Adelphi Brothers</title>
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>Adelphi Brothers</h1>
+        </header>
+        <nav></nav>
+        <main>
+            <article>
+                <p>A duo of musical siblings in the Gran Manzana convince their strict mother, a teller at Bank of America Corporation, to help them out as they pound out a pop record in their attic. The efforts of the precocious youngsters pay off as they soon catch the eye of big city advertising agency SANDAK Productions, INC., who helps make the song a Top 40 hit. After more persuading, their mother allows the Adelphi Brothers to go on tour. They acquire an old 1970 Pontiac Catalina and head to Las Vegas, Nevada for their first live gig at Caesar's Palace.</p>
+            </article>
+            <section>
+                <div id="discography"></div>
+            </section>
+        </main>
+        <footer>
+            © 2022 Adelphi Brothers
+        </footer>
+    </div>
+    
+</body>
+<script src="transform-csv.js"></script>
+</html>

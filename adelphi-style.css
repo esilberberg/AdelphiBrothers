@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 30px 0;
+    text-align: center;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: 700;
+    font-size: 6em;
+    line-height: 1;
+}
+
+h2 {
+    font-size: 2em;
+    line-height: 1;
+    margin: 20px 0;
+    font-family: 'Andika New Basic', sans-serif;
+    font-weight: 400;
+}
+
+article {
+    margin: 50px 0 30px 0;
+    padding: 0 70px;
+}
+
+section {
+    border-top: 10px solid black;
+    padding: 50px 0 0 0;
+}
+
+.album {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    margin: 0 0 50px 0;
+}
+
+img {
+    width: 200px;
+    border: 1px black solid;
+} 
+
+img:hover {
+    filter: sepia(70%) hue-rotate(90deg);
+}   
+
+.album-info {
+    padding: 0 0 0 20px;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:aquamarine;
+}
+
+.tracks {
+    margin: 20px 0 0 0;
+}
+
+.year {
+    font-style: italic;
+}
+
+footer {
+    text-align: center;
+    margin: 100px 0 20px 0;
+    font-size: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .album {
+        display: block;
+        justify-content: center;
+        padding: 0 50px;
+    }
+    .album-info {
+        padding: 0;
+    }
+    h2 {
+        text-align: center;
+    }
+    img {
+        width: 100%;
+    }
+    article {
+        padding: 0 20px;
+    }
+    .year {
+        text-align: center;
+    }
+}
