@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    color: white;
+    background-color:black;
+    width: 100%;
+    position: sticky; top: 0;
+    padding: 10px 0 10px 10px;
+}
+
+.logo {
+    width: 50%;
+    max-width: 600px;
+}
+
+
+main {
+    padding-bottom: 2.5rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    font-style: italic;
+    width: 50%;
+    margin: 40px auto;
+    border: 8px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+.flex-container {
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+
+.album {
+    width: 200px;   
+}
+
+.album-art {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.year {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer {
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+}
+
+.sandak {
+    font-size: 11px;
+    font-weight: 900;
+}
