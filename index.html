@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Remove link from phone numbers -->
+    <meta name="format-detection" content="telephone=no">
+
+    <!-- Page metadata -->
+    <meta name="description" content="Complete recordings of the Adelphi Brothers">
+    <meta name="keywords" content="family band, siblings, brothers">
+    <meta name="author" content="eric silberberg | ericsilberberg.com">
+
+    <!-- Social metadata -->
+    <meta property="og:title" content="Adelphi Brothers" />
+    <meta property="og:description" content="Complete recordings of the Adelphi Brothers" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://adelphibrothers.com/" />
+    <meta property="og:image" content="media\adelphi_brothers_logo.png" />
+
+    <meta name="twitter:title" content="Adelphi Brothers">
+    <meta name="twitter:description" content="Complete recordings of the Adelphi Brothers">
+    <meta name="twitter:image" content="media\adelphi_brothers_logo.png">
+    <meta name="twitter:card" content="media\vecchio.png">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+        
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/media/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/media/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/media/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/media/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/media/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/media/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2d89ef">
+    <meta name="msapplication-config" content="/media/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Translate Google Sheets CMS to CSV -->
+    <script src="https://cdn.rawgit.com/Keyang/node-csvtojson/d41f44aa/browser/csvtojson.min.js"></script>
+    
+    <link rel="stylesheet" href="adelphi-style.css">
+
+    <title>Adelphi Brothers</title>
+</head>
+<body>
+    <div class="wrapper">
+        
+        <header id="header">
+            <img src="media\adelphiBros_logo_white.svg" alt="Adelphi Brothers" class="logo">
+        </header>
+
+        <main>
+            <h2>SANDAK Productions, Inc. celebrates 
+                its signature artist with the complete collection of Adelphi Brothers
+                recordings to date, brought to you in dazzling digital audio!</h2>
+            <div class="subheading"><h1>Albums</h1></div>
+            
+            <ul id="flex-container-albums" class="flex-container"></ul>
+            
+            <div class="subheading"><h1>Singles</h1></div>
+            <ul id="flex-container-singles" class="flex-container"></ul>
+        </main>
+
+        <footer>
+            <p class="sandak">SANDAK</p>
+            <p>© 2022 SANDAK Productions, Inc. All Rights Reserved</p>
+            <p>152 Jericho Turnpike Floral Park, New York 11001</p>
+            <p>Contact: (800) 745-3000 | adelphibrothers@gmail.com</p>
+        </footer>
+
+    </div>
+</body>
+<script src="transform-csv.js"></script>
+</html>

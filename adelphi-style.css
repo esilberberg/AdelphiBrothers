@@ -1,0 +1,166 @@
+:root {
+    --background: #f8f8ff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.wrapper {
+    position: relative;
+    min-height: 100vh;
+}
+
+header {
+    color: white;
+    background-color:black;
+    position: sticky; 
+    min-height: 30px;
+    width: 100%;
+    top: 0;
+    padding: 10px 0 10px 10px;
+    z-index: 9;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.logo {
+    width: 50%;
+    max-width: 600px;
+    min-width: 158px;
+}
+
+main {
+    padding-bottom: 2.5rem;
+}
+
+.subheading {
+    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
+    position: -webkit-sticky;
+    position: sticky;
+    padding: 20px 0;
+    width: 100%;
+}
+
+h1 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+@media only screen and (min-width: 1210px) {
+    .subheading {
+        top: 100px;
+    }
+}
+@media only screen and (max-width: 1209px) {
+    .subheading {
+        top: 95px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .subheading {
+        top: 85px;
+    }
+}
+@media only screen and (max-width: 1100px) {
+    .subheading{
+        top: 75px;
+    }
+}
+@media only screen and (max-width: 800px) {
+    .subheading {
+        top: 65px;
+    }
+}
+@media only screen and (max-width: 640px) {
+    .subheading {
+        padding: 15px 0;
+        top: 55px;
+    }
+}
+@media only screen and (max-width: 490px) {
+    .subheading {
+        padding: 10px 0;
+        top: 50px;
+        font-size: 20px;
+    }
+}
+
+h2 {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px;
+    width: 50%;
+    margin: 40px auto;
+    border: 8px solid transparent;
+    border-image: linear-gradient(to bottom right, #b827fc 0%, #2c90fc 25%, #b8fd33 50%, #fec837 75%, #fd1892 100%);
+    border-image-slice: 1;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+p {
+    font-weight: 200;
+}
+
+.flex-container {
+    max-width: 1200px;
+    margin: 40px auto 100px auto;
+    list-style: none;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    padding: 0 10px;
+    gap: 40px;
+}
+
+.album {
+    width: 200px;   
+}
+
+.album-art {
+    width: 100%;
+    margin-bottom: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.album-art:hover {
+    box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+  }
+
+.year {
+    font-style: italic;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer {
+    color: white;
+    font-size: 10px;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+}
+
+.sandak {
+    font-size: 11px;
+    font-weight: 900;
+}
