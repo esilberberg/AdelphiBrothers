@@ -164,3 +164,9 @@ footer {
     font-size: 12px;
     font-weight: 700;
 }
+
+@media only screen and (max-width: 490px) {
+    footer {
+        font-size: 9px;
+    }
+}
