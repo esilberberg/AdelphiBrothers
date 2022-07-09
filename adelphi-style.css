@@ -152,7 +152,7 @@ p {
 
 footer {
     color: white;
-    font-size: 10px;
+    font-size: 0.6em;
     background-color: black;
     position: absolute;
     bottom: 0;
@@ -161,12 +161,6 @@ footer {
 }
 
 .sandak {
-    font-size: 12px;
+    font-size: 1.5em;
     font-weight: 700;
-}
-
-@media only screen and (max-width: 490px) {
-    footer {
-        font-size: 9px;
-    }
 }
