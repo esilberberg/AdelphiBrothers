@@ -93,7 +93,7 @@ h1 {
 @media only screen and (max-width: 490px) {
     .subheading {
         padding: 10px 0;
-        top: 50px;
+        top: 45px;
         font-size: 20px;
     }
 }
@@ -161,6 +161,6 @@ footer {
 }
 
 .sandak {
-    font-size: 11px;
-    font-weight: 900;
+    font-size: 12px;
+    font-weight: 700;
 }
