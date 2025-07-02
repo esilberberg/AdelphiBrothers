@@ -1,3 +1,3 @@
 # AdelphiBrothers
-website for the adelphi brothers
+Website for the Adelphi Brothers
 https://adelphibrothers.com
